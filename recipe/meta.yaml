@@ -1,4 +1,4 @@
-{% set version = "0.9.8" %}
+{% set version = "0.10.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nodbi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nodbi/nodbi_{{ version }}.tar.gz
-  sha256: 79d286060e8e6f2a265d411d97a938c807c8c18d66bba0fe2ff65d608aeffcfa
+  sha256: fc2b0214039109f763906dd75f06a1a16427ad8f230512573cc020f6b6125887
 
 build:
   merge_build_host: true  # [win]
