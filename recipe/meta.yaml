@@ -27,16 +27,18 @@ requirements:
   host:
     - r-base
     - r-dbi
+    - r-r.utils
+    - r-v8
     - r-jqr
-    - r-jsonify
     - r-jsonlite
     - r-stringi
     - r-uuid
   run:
     - r-base
     - r-dbi
+    - r-r.utils
+    - r-v8
     - r-jqr
-    - r-jsonify
     - r-jsonlite
     - r-stringi
     - r-uuid
