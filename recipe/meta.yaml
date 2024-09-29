@@ -1,4 +1,4 @@
-{% set version = "0.10.6" %}
+{% set version = "0.10.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/nodbi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/nodbi/nodbi_{{ version }}.tar.gz
-  sha256: 1dabd6ccc9a9aaafaad7748e07d312213d7d4da9bafc72231a4c3da00133f6cd
+  sha256: 0a5cfd5d824329080043bcf21267817693644e421f91433811bf46b6ba3838b2
 
 build:
   number: 0
